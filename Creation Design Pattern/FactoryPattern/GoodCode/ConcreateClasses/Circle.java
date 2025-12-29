@@ -1,0 +1,12 @@
+package FactoryPattern.GoodCode.ConcreateClasses;
+
+import FactoryPattern.GoodCode.Shape;
+
+public class Circle implements Shape {
+
+    @Override
+    public void draw() {
+        System.out.println("Drawing circle");
+    }
+    
+}
