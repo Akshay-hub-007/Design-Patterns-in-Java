@@ -21,7 +21,11 @@ public class Client {
          * Using Adapter Pattern:
          * - Client depends on a common interface
          * - Old and new gateways are adapted to that interface
-         * - Client code remains unchanged when new payments are added
+         * - Client code remains unchanged when new payments are 
+         * 
+         * 
+         * In Future any changes happen in the gateway the client should not knwo
+         * about this and will face a problem
          */
 
         OldPaymentGateway oldPaymentGateway = new OldPaymentGateway();
