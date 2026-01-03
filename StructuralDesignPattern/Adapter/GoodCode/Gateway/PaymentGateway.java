@@ -1,4 +1,4 @@
-package DesignPatterns.StructuralDesignPattern.GoodCode.Gateway;
+package DesignPatterns.StructuralDesignPattern.Adapter.GoodCode.Gateway;
 
 public interface PaymentGateway {
 

@@ -1,4 +1,4 @@
-package DesignPatterns.StructuralDesignPattern.BadCode;
+package DesignPatterns.StructuralDesignPattern.Adapter.BadCode;
 
 public class OldPaymentGateway {
     public void makePayment(double amount) {

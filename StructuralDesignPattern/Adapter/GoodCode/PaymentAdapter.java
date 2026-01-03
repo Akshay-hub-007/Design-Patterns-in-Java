@@ -1,6 +1,6 @@
-package DesignPatterns.StructuralDesignPattern.GoodCode;
+package DesignPatterns.StructuralDesignPattern.Adapter.GoodCode;
 
-import DesignPatterns.StructuralDesignPattern.GoodCode.Gateway.PaymentGateway;
+import DesignPatterns.StructuralDesignPattern.Adapter.GoodCode.Gateway.PaymentGateway;
 
 public class PaymentAdapter implements PaymentProcessor {
 

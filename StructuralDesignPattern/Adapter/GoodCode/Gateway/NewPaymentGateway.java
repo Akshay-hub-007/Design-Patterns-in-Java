@@ -1,4 +1,4 @@
-package DesignPatterns.StructuralDesignPattern.GoodCode.Gateway;
+package DesignPatterns.StructuralDesignPattern.Adapter.GoodCode.Gateway;
 
 public class NewPaymentGateway implements PaymentGateway{
     public void makePayment(double amount) {

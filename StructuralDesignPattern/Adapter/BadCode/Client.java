@@ -1,4 +1,4 @@
-package DesignPatterns.StructuralDesignPattern.BadCode;
+package DesignPatterns.StructuralDesignPattern.Adapter.BadCode;
 
 public class Client {
     public static void main(String[] args) {

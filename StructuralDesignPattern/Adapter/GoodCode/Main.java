@@ -1,9 +1,10 @@
-package DesignPatterns.StructuralDesignPattern.GoodCode;
+package DesignPatterns.StructuralDesignPattern.Adapter.GoodCode;
 
-import DesignPatterns.StructuralDesignPattern.GoodCode.Gateway.OldPaymentGateway;
-import DesignPatterns.StructuralDesignPattern.GoodCode.Gateway.NewPaymentGateway;
+import DesignPatterns.StructuralDesignPattern.Adapter.GoodCode.Gateway.NewPaymentGateway;
+import DesignPatterns.StructuralDesignPattern.Adapter.GoodCode.Gateway.OldPaymentGateway;
 
 public class Main {
+    
     public static void main(String[] args) {
 
         PaymentProcessor processor = new PaymentAdapter(new OldPaymentGateway());
